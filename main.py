@@ -57,4 +57,5 @@ gpcalc()
 
 credittotal = cc1+cc2+cc3
 gpa = ((cc1*gp1)+(cc2*gp2)+(cc3*gp3))/credittotal
+
 print('Your GPA is:',gpa)
