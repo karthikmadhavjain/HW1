@@ -40,21 +40,21 @@ def gpcalc ():
   print('Grade point for course %s is:'%inputnumber,gradepoint)
 
 
-c1 = str (input('Enter your course 1 letter grade:'))
-cc1 = int (input('Enter your course 1 credit:'))
+c1 = str (input('Enter your course 1 letter grade: '))
+cc1 = int (input('Enter your course 1 credit: '))
 inputnumber = inputnumber+1
 gpcalc()
 
-c2 = str (input('Enter your course 2 letter grade:'))
-cc2 = int (input('Enter your course 2 credit:'))
+c2 = str (input('Enter your course 2 letter grade: '))
+cc2 = int (input('Enter your course 2 credit: '))
 inputnumber = inputnumber+1
 gpcalc()
 
-c3 = str (input('Enter your course 3 letter grade:'))
-cc3 = int (input('Enter your course 3 credit:'))
+c3 = str (input('Enter your course 3 letter grade: '))
+cc3 = int (input('Enter your course 3 credit: '))
 inputnumber = inputnumber+1
 gpcalc()
 
 credittotal = cc1+cc2+cc3
 gpa = ((cc1*gp1)+(cc2*gp2)+(cc3*gp3))/credittotal
-print('Your GPA is:',gpa)
+print('Your GPA is: ',gpa)
