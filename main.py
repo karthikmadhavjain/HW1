@@ -1,7 +1,7 @@
 #Author: Karthik Madhav Jain kmj5614@psu.edu
 global gradepoint
 inputnumber= 0
-def gpcalc ():
+def getGradePoint ():
   global gp1,gp2,gp3
   
   
@@ -43,12 +43,12 @@ def gpcalc ():
 c1 = str (input('Enter your course 1 letter grade: '))
 cc1 = int (input('Enter your course 1 credit: '))
 inputnumber = inputnumber+1
-gpcalc()
+getGradePoint()
 
 c2 = str (input('Enter your course 2 letter grade: '))
 cc2 = int (input('Enter your course 2 credit: '))
 inputnumber = inputnumber+1
-gpcalc()
+getGradePoint()
 
 c3 = str (input('Enter your course 3 letter grade: '))
 cc3 = int (input('Enter your course 3 credit: '))
